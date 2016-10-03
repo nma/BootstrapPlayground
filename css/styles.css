@@ -1,0 +1,65 @@
+/* general variables for sass */
+/* break points */
+/* BEGIN: Bootstrap Override */
+/* END: Bootstrap Override */
+/* BEGIN: Main Styles */
+body {
+  font-family: "Lato", sans-serif;
+  color: #2d3c49; }
+
+hr {
+  border: none;
+  height: 3px;
+  color: #7d97ad;
+  background-color: #7d97ad;
+  margin-bottom: 0; }
+
+a p {
+  color: #2d3c49; }
+
+img {
+  width: 100%; }
+
+/* adjustments to make the output look like the mock */
+.featured-title {
+  margin-top: 1em;
+  color: #7d97ad; }
+
+.portfolio-section {
+  padding-left: 0;
+  padding-right: 0; }
+
+.logo {
+  height: 100%;
+  max-width: 100px;
+  max-height: 100px; }
+  @media screen and (max-width: 240px) {
+    .logo {
+      max-width: 80px;
+      max-height: 80px; } }
+
+.container {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.modal-body p {
+  padding: 10px; }
+
+/* reduce font size to fit on iphone 5 */
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 24px; } }
+
+@media screen and (max-width: 240px) {
+  .title {
+    font-size: 16px; } }
+
+@media screen and (max-width: 400px) {
+  .subtitle {
+    font-size: 12px; } }
+
+@media screen and (max-width: 240px) {
+  .subtitle {
+    font-size: 8px; } }
+
+/* END: Main Styles */

@@ -1,0 +1,95 @@
+// styles.scss
+
+//@import 'debug';
+
+/* general variables for sass */
+
+$font-stack:        'Lato', sans-serif;
+$primary-color:     #02b3e4;
+$secondary-color:   #2d3c49;
+$tertiary-color:    #7d97ad;
+
+/* break points */
+$break-xsmall:      240px;
+$break-small:       400px;
+
+/* BEGIN: Bootstrap Override */
+
+/* END: Bootstrap Override */
+
+/* BEGIN: Main Styles */
+body {
+    font-family: $font-stack;
+    color: $secondary-color;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    color: $tertiary-color;
+    background-color: $tertiary-color;
+    margin-bottom: 0;
+}
+
+a {
+    p {
+        color: $secondary-color;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+/* adjustments to make the output look like the mock */
+.featured-title {
+    margin-top: 1em;
+    color: $tertiary-color;
+}
+
+.portfolio-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo {
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    @media screen and (max-width: $break-xsmall) {
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+
+.container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-body {
+    p {
+        padding: 10px;
+    }
+}
+
+/* reduce font size to fit on iphone 5 */
+.title {
+    @media screen and (max-width: $break-small) {
+        font-size: 24px;
+    }
+    @media screen and (max-width: $break-xsmall) {
+        font-size: 16px;
+    }
+}
+
+.subtitle {
+    @media screen and (max-width: $break-small) {
+        font-size: 12px;
+    }
+    @media screen and (max-width: $break-xsmall) {
+        font-size: 8px;
+    }
+}
+
+/* END: Main Styles */
