@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test Pages</title>
+  <link rel="stylesheet" href="../node_modules/@blueprintjs/core/dist/blueprint.css">
+</head>
+<body>
+  <div>
+    <h1>Test</h1>
+    <div class="pt-card pt-elevation-0 pt-interactive">
+      <h2>Labels</h2>
+      <label class="pt-label">
+        Label A
+        <span class="pt-text-muted">(required)</span>
+        <input class="pt-input" style="width: 200px;" type="text" placeholder="Text input" dir="auto" />
+      </label>
+    </div>
+    <br />
+    <div class="pt-card pt-elevation-2 pt-interactive">
+      <h2>Control Groups</h2>
+      <div class="pt-control-group">
+        <div class="pt-input-group">
+          <span class="pt-icon pt-icon-people"></span>
+          <input type="text" class="pt-input" placeholder="Find collaborators..." style="padding-right:94px" />
+          <div class="pt-input-action">
+            <button class="pt-button pt-minimal pt-intent-primary">
+              can view<span class="pt-icon-standard pt-icon-caret-down pt-align-right"></span>
+            </button>
+          </div>
+        </div>
+        <button class="pt-button pt-intent-primary">Add</button>
+      </div>
+    </div>
+  </div>
+  <!-- scripts here -->
+  <script type="text/javascript" src="../node_modules/@blueprintjs/core/core.bundle.js"></script>
+</body>
+</html>
